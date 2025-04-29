@@ -1,0 +1,188 @@
+.App {
+  text-align: center;
+}
+
+.logo {
+  height: 5vh;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+
+.expandable-div {
+  background-color: #f4f4f9;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 5px solid #582c5e;
+  height: 400px; 
+  /* overflow: hidden; */
+  transition: max-height 0.5s ease; /* Smooth transition for expanding */
+}
+
+.expanded {
+ height: 1000px; 
+}
+
+.App-header {
+  background-color: #582c5e;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: white;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+ } */
+
+
+form {
+  background-color: #f4f4f9;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 20px auto;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+  /* border: 5px solid #582c5e; */
+} 
+
+/* Style for labels */
+label {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+  
+} 
+
+/* Style for input and textarea */
+input[type="text"], textarea {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  resize: none; 
+} 
+
+/* Focus styles for input and textarea */
+input[type="text"]:focus, textarea:focus {
+  border-color: #582c5e;
+  outline: none;
+} 
+
+/* Style for the button */
+button {
+  padding: 10px 20px;
+  background-color: #582c5e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+} 
+
+/* Button hover effect */
+button:hover {
+  background-color: #6b3672;
+}
+
+/* Container for the form fields */
+.form-container {
+  display: flex;
+  flex-direction: row; /* Place items in a row */
+  gap: 20px; /* Space between the items */
+  align-items: center; /* Vertically align the items */
+  justify-content: flex-start; /* Align items at the start of the container */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  border: 5px solid #582c5e;
+}
+
+/* Style for the input and textarea fields */
+input, textarea {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Ensure that labels take up enough space */
+label {
+  margin-right: 10px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.expandable-div {
+  background-color: #f4f4f9;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 5px solid #582c5e;
+  height: 300px; 
+  /* overflow: hidden; */
+  transition: max-height 0.5s ease; /* Smooth transition for expanding */
+  
+}
+
+.courseNames {
+  text-align: left;
+}
+
+.contents {
+  margin-top: 2vh;
+  background-color: #582c5e;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(1px + 2vmin);
+  color: white;
+  
+}
+
+ul {
+  list-style-type: none;
+}
+
+li { 
+  float: left;
+  padding: 5px;
+}
+
+link {
+  text-decoration: none;
+}
+
+.no-underline {
+  text-decoration: none;
+  color: white; 
+}
